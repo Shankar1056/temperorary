@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ScrollView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/formbc1"
+
+>
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <RelativeLayout
+                android:id="@+id/relation72"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:textSize="20dp"
+                    android:paddingHorizontal="30dp"
+                    android:gravity="center"
+
+                    android:text="Report Writing"
+
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation1"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/relation72"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/Infants1"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/houseno"
+                    android:layout_width="230dp" android:inputType="" 
+                    android:layout_height="40dp"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_marginStart="170dp" android:background="@drawable/border"
+
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="60dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation3"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/relation2"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="@string/Infants2" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation2"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/childname"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_width="230dp" android:inputType="" 
+                    android:layout_height="40dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation5"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/relation4"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/Infants3"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation4"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/age_month"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="230dp" android:inputType="" 
+                    android:layout_height="40dp"
+                    />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation7"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/relation6"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="32dp"
+                    android:gravity="center"
+                    android:text="@string/Infants4" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation6"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+                <CheckBox
+                    android:id="@+id/checkmale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Infants21" />
+                <CheckBox
+                    android:id="@+id/checkfemale"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginStart="70dp" android:text="@string/Infants22"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation9"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/relation8"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Name of FatherName"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation8"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/fathername"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="230dp" android:inputType="" 
+                    android:layout_height="40dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation100"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_below="@id/relation9"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Mobile Number"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation101"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation9"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="40dp">
+                <EditText
+                    android:id="@+id/mobile"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="230dp" android:inputType="" 
+                    android:layout_height="40dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation11"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/relation100"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Infants6"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation101"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+                <CheckBox
+                    android:id="@+id/checkyes"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp" android:text="@string/Infants15"/>
+                <CheckBox
+                    android:id="@+id/checkno"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp" android:text="@string/Infants16"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation13"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/relation12"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/Infants7"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation12"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+                <Spinner
+                    android:id="@+id/vaccine_birth"
+                    android:entries="@array/Infantschildren1"
+                    android:layout_width="230dp"
+
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_height="40dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation15"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/relation14"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/Infants8"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation14"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+                <Spinner
+                    android:id="@+id/week_6"
+                    android:entries="@array/Infantschildren2"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation17"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/relation16"
+                android:layout_height="wrap_content">
+                <TextView
+
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/Infants9"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation16"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+
+                <Spinner
+                    android:id="@+id/week_10"
+                    android:entries="@array/Infantschildren3"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="10dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation19"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/relation18"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/Infants10"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation18"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+                <Spinner
+                    android:id="@+id/week_14"
+                    android:entries="@array/Infantschildren4"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation21"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/relation20"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/Infants11"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation20"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+                <Spinner
+                    android:id="@+id/week_9to12"
+                    android:entries="@array/Infantschildren5"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation23"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/relation22"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Infants13"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation22"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="20dp">
+                <EditText
+                    android:id="@+id/booster"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="230dp" android:inputType="" 
+                    android:layout_height="40dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation25"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_below="@id/relation24"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Infants14"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation24"
+                android:layout_marginLeft="170dp"
+                android:layout_marginStart="170dp" android:layout_marginTop="50dp">
+
+                <EditText
+                    android:id="@+id/for_completely"
+                    android:layout_width="230dp" android:inputType="" 
+                    android:layout_height="40dp"
+
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_below="@id/relation26"
+                android:layout_marginTop="50dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/bnt_Cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginStart="120dp" android:background="#FFF"
+                    android:text="Cancel"
+
+                    android:layout_height="wrap_content"
+                    />
+                <Button
+                    android:id="@+id/bnt_Submit"
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="240dp" android:background="#FFF"
+                    android:text="@string/Infants18"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="240dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

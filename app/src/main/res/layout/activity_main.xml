@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002366"
+    tools:context="mainscreen.govt.maidi.com.maidi.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="fill_parent" android:inputType="" 
+            android:layout_height="55dp"
+            android:layout_above="@+id/textView"
+            android:layout_marginBottom="37dp"
+            android:layout_marginLeft="28dp"
+           android:layout_marginRight="28dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:hint="Enter OTP" />
+
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="105dp"
+            android:background="#3ab4cf"
+            android:text="SUBMIT"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnLogin"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="36dp"
+            android:layout_marginLeft="84dp"
+            android:layout_marginStart="84dp"
+            android:textColor="#FFFFFF"
+            android:text="Didn't get the OTP? Resend OTP" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:contentDescription="TODO" app:srcCompat="@drawable/icmn" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_marginBottom="70dp"
+            android:text="We have sent you the OTP via SMS"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/editText"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_marginBottom="40dp"
+            android:text="for mobile number verification"
+            android:textColor="#FFFFFF" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

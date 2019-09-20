@@ -1,0 +1,216 @@
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/formbc1"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/relation2"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="117dp"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/aefi9"
+            android:textSize="13dp" />
+        <EditText
+            android:id="@+id/reporter_aefi"
+            android:layout_width="200dp" android:inputType="" 
+            android:backgroundTint="#FFFFFF"
+            android:layout_height="40dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginStart="130dp" android:background="@drawable/border"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation3"
+        android:layout_below="@id/relation2"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/text2"
+
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:text="@string/aefi12"
+            android:textSize="13dp"
+            android:textStyle="bold"
+
+            android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/location"
+
+            android:layout_width="200dp" android:inputType="" 
+            android:layout_height="40dp"
+            android:backgroundTint="#FFFFFF"
+
+            android:layout_marginLeft="130dp"
+            android:layout_marginStart="130dp" android:background="@drawable/border"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation4"
+
+        android:layout_width="wrap_content"
+        android:layout_below="@id/relation3"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="105dp"
+            android:gravity="center"
+            android:textSize="13dp"
+            android:textStyle="bold"
+
+            android:layout_height="40dp"
+            android:text="@string/aefi13"/>
+        <EditText
+            android:id="@+id/designation"
+            android:layout_marginStart="130dp" android:background="@drawable/border"
+
+            android:layout_width="200dp" android:inputType="" 
+            android:layout_height="40dp"
+            android:backgroundTint="#FFFFFF"
+
+            android:layout_marginLeft="130dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation5"
+        android:layout_below="@id/relation4"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="13dp"
+            android:textStyle="bold"
+
+            android:text="@string/aefi14"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginStart="130dp" android:background="@drawable/border"
+
+            android:layout_width="200dp" android:inputType="" 
+            android:backgroundTint="#FFFFFF"
+
+            android:layout_height="40dp"
+            android:layout_marginLeft="130dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation6"
+        android:layout_below="@id/relation5"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:text="@string/aefi15"/>
+        <EditText
+            android:id="@+id/contant_number"
+            android:layout_marginStart="130dp" android:background="@drawable/border"
+
+            android:layout_width="200dp" android:inputType="" 
+            android:layout_height="40dp"
+            android:backgroundTint="#FFFFFF"
+
+            android:layout_marginLeft="130dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation7"
+        android:layout_below="@id/relation6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+
+            android:id="@+id/text7"
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:text="@string/aefi5"/>
+        <EditText
+            android:id="@+id/address"
+            android:layout_marginStart="130dp" android:background="@drawable/border"
+            android:backgroundTint="#FFFFFF"
+
+            android:layout_width="200dp" android:inputType="" 
+            android:layout_height="40dp"
+            android:layout_marginLeft="130dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relation8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relation7"
+
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="40dp"
+            android:text="@string/survey12"
+            android:textStyle="bold"
+
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/area_code"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="130dp"
+            android:backgroundTint="#FFFFFF"
+
+            android:layout_marginTop="0dp"
+             android:background="@drawable/border"
+
+            android:gravity="center" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/relation8"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:background="#FFF"
+            />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:layout_marginLeft="140dp"
+            android:layout_marginStart="140dp" android:background="#FFF"
+            />
+
+    </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroud"
+        >
+        <RelativeLayout
+            android:id="@+id/relation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/survey1"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relation1"
+            android:layout_below="@+id/relation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1"
+
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:gravity="center_vertical"
+                android:text="Data Entry"
+
+                android:textSize="20dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relation2"
+            android:layout_marginVertical="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relation1"
+            >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_marginLeft="10dp"
+
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:text="@string/survey2"
+                android:layout_marginStart="10dp" android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:contentDescription="TODO" android:src="@drawable/pad"
+                android:layout_marginLeft="270dp"
+                android:layout_marginStart="270dp" android:layout_marginVertical="15dp"
+                />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relation3"
+            android:layout_below="@+id/relation2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_marginLeft="40dp"
+
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="40dp" android:gravity="center_vertical"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Reports"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/relation5"
+            android:layout_marginVertical="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_below="@id/relation3"
+            >
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_marginLeft="10dp"
+
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:paddingStart="20dp" android:text="NEW SERVEY"
+                android:paddingLeft="20dp"
+                android:layout_marginStart="10dp" android:gravity="center_vertical"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="51dp"
+                android:layout_height="51dp"
+                android:layout_marginLeft="270dp"
+                android:contentDescription="TODO" android:src="@drawable/pad"
+                android:layout_marginStart="270dp" android:background="@drawable/backgroud"
+
+                android:layout_marginVertical="15dp"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relation4"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relation3"
+
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp" android:layout_marginRight="20dp">
+
+
+                <!-- <RelativeLayout
+                     android:id="@+id/relation5"
+                     android:layout_width="fill_parent"
+                     android:layout_height="70dp"
+                     android:layout_marginVertical="50dp"
+                     android:layout_marginTop="105dp">
+
+                     <TextView
+                         android:layout_width="150dp"
+                         android:layout_height="30dp"
+                         android:layout_marginTop="20dp"
+                         android:gravity="center"
+                         android:text="Form 3" />
+
+
+                     <ImageButton
+                         android:layout_width="50dp"
+                         android:layout_height="50dp"
+                         android:layout_marginLeft="180dp"
+                         android:layout_marginTop="10dp" />
+
+                     <ImageButton
+                         android:layout_width="50dp"
+                         android:layout_height="50dp"
+                         android:layout_marginLeft="250dp"
+                         android:layout_marginTop="10dp" />
+                 </RelativeLayout>
+                 <RelativeLayout
+                     android:id="@+id/relation6"
+                     android:layout_width="fill_parent"
+                     android:layout_height="70dp"
+                     android:layout_below="@id/relation5"
+                     android:layout_marginTop="-40dp">
+                     <TextView
+                         android:layout_width="150dp"
+                         android:layout_height="30dp"
+                         android:layout_marginTop="20dp"
+                         android:gravity="center"
+                         android:text="Form 4"/>
+
+
+                     <ImageButton
+                         android:layout_width="50dp"
+                         android:layout_height="50dp"
+                         android:layout_marginLeft="180dp"
+                         android:layout_marginTop="10dp" />
+                     <ImageButton
+                         android:layout_width="50dp"
+                         android:layout_height="50dp"
+                         android:layout_marginLeft="250dp"
+                         android:layout_marginTop="10dp"
+                         />
+                 </RelativeLayout>
+                 <RelativeLayout
+                     android:id="@+id/relation7"
+                     android:layout_width="fill_parent"
+                     android:layout_height="70dp"
+                     android:layout_below="@id/relation6"
+                     android:layout_marginTop="10dp">
+                     <TextView
+                         android:layout_width="150dp"
+                         android:layout_height="30dp"
+                         android:layout_marginTop="20dp"
+                         android:gravity="center"
+                         android:text="Form 5"/>
+
+
+                     <ImageButton
+                         android:layout_width="50dp"
+                         android:layout_height="50dp"
+                         android:layout_marginLeft="180dp"
+                         android:layout_marginTop="10dp" />
+                     <ImageButton
+                         android:layout_width="50dp"
+                         android:layout_height="50dp"
+                         android:layout_marginLeft="250dp"
+                         android:layout_marginTop="10dp"
+                         />
+                 </RelativeLayout>-->
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

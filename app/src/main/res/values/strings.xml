@@ -1,0 +1,483 @@
+<resources>
+    <string name="app_name">Maidi</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_module">ModuleActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+<string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="loginuser">Username</string>
+    <string name="loginpassword">Password</string>
+    <string name="login1">LOGIN</string>
+    <string name="login2">OR</string>
+    <string name="login3">Beneficiary Login</string>
+    <string name="login4"></string>
+    <string name="beneficiary1">Enter your mobile number to get started!</string>
+    <string name="beneficiary2">Mobile</string>
+    <string name="beneficiary3">Next</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_monthly_work">MonthlyWorkActivity</string>
+    <string name="title_activity_survey">SurveyActivity</string>
+    <string name="title_activity_view">ViewActivity</string>
+    <string name="title_activity_update">UpdateActivity</string>
+
+    <string name="survey1">Survey</string>
+    <string name="survey2">HOUSE To HOUSE SURVEY</string>
+    <string name="survey3">ANM/AWW Details</string>
+    <string name="survey4">House Details</string>
+    <string name="survey5">Pregnant Woman</string>
+    <string name="survey6">Infant/Children</string>
+    <string name="survey7">Mobile</string>
+    <string name="survey8">Date</string>
+    <string name="survey9">Sub Center</string>
+    <string name="survey10">Name of ANM</string>
+    <string name="survey11">Area Name</string>
+    <string name="survey12">Area code</string>
+    <string name="survey13">Cancel</string>
+    <string name="survey14">Submit</string>
+    <string name="survey15">First Name</string>
+    <string name="survey16">Last Name</string>
+    <string name="survey17">Cancel</string>
+    <string name="survey18">survey Name</string>
+
+    <string name="survey19">House No.</string>
+    <string name="survey20">Name of the head of the family</string>
+    <string name="survey21">Fathers Name</string>
+    <string name="survey23">How many family members are living in this house?</string>
+    <string name="survey24">Is there any Newborn/child aged less then 1 month?</string>
+    <string name="survey25">Is there any chlid aged between 1 to 2 Year?</string>
+    <string name="surveyyes">Yes</string>
+    <string name="surveyno">No</string>
+    <string name="PregnantWomen1">House No as in Form 3 </string>
+    <string name="PregnantWomen2">Name of the pregnant woman</string>
+    <string name="PregnantWomen3">Age in years  </string>
+    <string name="PregnantWomen4">Husbands name</string>
+    <string name="PregnantWomen5">Mobile / Telephone Number</string>
+    <string name="PregnantWomen6">Is MCP card available:    Yes / No </string>
+    <string name="PregnantWomen7">Expected date of delivery/ LMP</string>
+    <string name="PregnantWomen8">Tetanus Toxoid Vaccination</string>
+    <string name="PregnantWomen9">Ante Natal Check Up</string>
+    <string name="PregnantWomen10">Tetanus Toxoid Vaccination</string>
+    <string name="PregnantWomen11">Tetanus Toxoid Vaccination</string>
+    <string name="PregnantWomen12">Tetanus Toxoid Vaccination</string>
+    <string name="PregnantWomen13">Yes</string>
+    <string name="PregnantWomen14">No</string>
+
+    <string-array name="PregnantWomen1">
+        <item>Tetanus Toxoid Vaccination </item>
+        <item>TT-1</item>
+        <item>TT-2</item>
+        <item>TT-Booster(If 2 doses of TT have been given within 3 years of the current pregnancy)</item>
+    </string-array>
+    <string-array name="PregnantWomen2">
+        <item>1st ANC</item>
+        <item>2nd ANC</item>
+        <item>3rd ANC</item>
+        <item>4th ANC</item>
+    </string-array>
+    <string-array name="PregnantWomen3">
+        <item>FOR ANM ONLY</item>
+        <item>TT due-Y/N</item>
+        <item>ANC due-Y/N</item>
+
+    </string-array>
+    <string-array name="member">
+        <item>Select the Member</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+    <string name="Infants1">House No as in Form 3</string>
+    <string name="Infants2">Name of the child</string>
+    <string name="Infants3">Age in yrs and months</string>
+    <string name="Infants4">Sex M / F</string>
+    <string name="Infants5">Name of the father and mobile number</string>
+    <string name="Infants6">Is MCP card available:Yes / No</string>
+    <string name="Infants7">Vaccines at birth</string>
+    <string name="Infants8">Vaccines at 6 weeks</string>
+    <string name="Infants9">Vaccines at 10 weeks</string>
+    <string name="Infants10">Vaccines at 14 weeks</string>
+    <string name="Infants11">Vaccines at 9 to 12 months</string>
+    <string name="Infants12">For Fully Immunized (FI) child - has incentive been given to ASHA</string>
+    <string name="Infants13">Booster and 2nd doses of Vaccines at 16 to 24 months of age</string>
+    <string name="Infants14">For Completely Immunized (CI) child - has incentive been given to ASHA</string>
+    <string name="Infants15">Yes</string>
+    <string name="Infants16">No</string>
+    <string name="Infants17">Cencel</string>
+    <string name="Infants18">Submit</string>
+    <string name="Infants19">For Fully Immunized (FI) child - has incentive been given to ASHA</string>
+    <string name="Infants20">For Completely Immunized (CI) child - has incentive been given to ASHA</string>
+    <string name="Infants21">Male</string>
+    <string name="Infants22">Female</string>
+    <string name="Regitation1">Name</string>
+    <string name="Regitation2">Address</string>
+    <string-array name="Infantschildren6">
+        <item>Booster and 2nd doses of Vaccines at 16 to 24 months of age</item>
+        <item>OPV Booster</item>
+        <item>DPT Booster</item>
+        <item>Vitamin A</item>
+        <item>Measles/MR 2nd dose</item>
+        <item>JE 2nd dose</item>
+    </string-array>
+    <string-array name="Infantschildren1">
+        <item>Vaccines at birth</item>
+        <item>Hepatitis B Zero dose(Witin 24 hours of birth)</item>
+        <item>OPV-Zero dose  (within 15 days of birth)</item>
+        <item>BCG (At birth or upto 1 year of age - as early as possible)</item>
+
+    </string-array>
+    <string-array name="Infantschildren2">
+        <item>Vaccines at 6 weeks
+</item>
+        <item>OPV-1</item>
+        <item>Penta-1</item>
+        <item>RVV-1</item>
+    </string-array>
+    <string-array name="Infantschildren3">
+        <item>Vaccines at 10 weeks</item>
+
+        <item>OPV-2</item>
+        <item>Penta -2</item>
+        <item>RVV-2</item>
+    </string-array>
+    <string-array name="Infantschildren4">
+        <item>Vaccines at 14 weeks</item>
+
+        <item>OPV-2</item>
+        <item>Penta -2</item>
+        <item>IPV</item>
+    </string-array>
+    <string-array name="Infantschildren5">
+        <item>Vaccines at 9 to 12 months</item>
+        <item>Measles/MR 1st dose</item>
+        <item>JE 1st dose</item>
+        <item>Vitamin A 1st dose</item>
+    </string-array>
+
+
+    <string name="aefi9">Reporter of AEFI</string>
+    <string name="style_adapter">Style adapter</string>
+    <string name="aefi1">Identifier</string>
+    <string name="aefi2">Name</string>
+    <string name="aefi3">Gender</string>
+    <string name="aefi4">Date of Brith/Age</string>
+    <string name="aefi5">Address</string>
+    <string name="aefi6">Male</string>
+    <string name="aefi7">Female</string>
+    <string name="aefi8">Next</string>
+    <string name="aefi10">Cencel</string>
+    <string name="aefi11">Reporter of AEFI</string>
+    <string name="aefi12">Institution/Location</string>
+    <string name="aefi13">Designation/Department</string>
+    <string name="aefi14">Email address</string>
+    <string name="aefi15">Contact number</string>
+    <string name="aefi16">Vaccine dose</string>
+    <string name="aefi40">Yes</string>
+    <string name="aefi41">No</string>
+    <string name="aefi17">Address</string>
+    <string name="aefi18">Vaccine name</string>
+    <string name="aefi19">Vaccine date</string>
+    <string name="aefi20">Vaccine time</string>
+    <string name="aefi21">Batch/Lot number</string>
+    <string name="aefi22">Expiry date</string>
+    <string name="aefi23">Name of diluent</string>
+    <string name="aefi24">Batch/Lot number</string>
+    <string name="aefi25">Expiry date</string>
+    <string name="aefi26">Date of reconstitution</string>
+    <string name="aefi27">Time of reconstitution</string>
+    <string name="aefi28">Severe local reation</string>
+    <string name="aefi29">Seizures</string>
+    <string name="aefi30">Abscess</string>
+    <string name="aefi31">Sepsis</string>
+    <string name="aefi32">Encephalopathy</string>
+    <string name="aefi33">Toxic shock syndrome</string>
+    <string name="aefi34">Thrombocytopenia</string>
+    <string name="aefi35">Anaphylaxis</string>
+    <string name="aefi36">Fever > or equal to degree</string>
+    <string name="aefi37">Other</string>
+    <string name="aefi38">Specify other</string>
+    <string name="aefi39">Event time</string>
+    <string name="aefi43">Severe event reported</string>
+    <string name="aefi44">Death</string>
+    <string name="aefi45">Life threatening</string>
+    <string name="aefi46">Persistent or significant</string>
+    <string name="aefi47">Congantal anomaly</string>
+    <string name="aefi48">Other</string>
+    <string name="aefi49">Specify other</string>
+    <string name="aefi50">Outcome</string>
+    <string name="aefi51">Past medical history concomitant medication and other relevant information</string>
+    <string name="aefi52">Date when seen for approve</string>
+    <string name="aefi54">Investigation needed</string>
+    <string name="aefi55">If Yes,date investigation please</string>
+    <string name="aefi56">Date investigation done</string>
+    <string name="aefi57">Date when seen for approved</string>
+    <string name="aefi58">Final Classifion</string>
+    <string name="aefi59">Severe envent reported</string>
+    <string name="aefi60">Outcome</string>
+    <string name="aefi61">Past medical history</string>
+    <string name="aefi62">Frist level approval</string>
+    <string name="aefi63">National level approval</string>
+    <string name="aefi64">Reporter details</string>
+    <string name="aefi65">Vaccine details</string>
+    <string name="aefi66">Diluent(if appilcable)</string>
+    <string name="aefi67">Adverse event</string>
+    <string name="submit">Submit</string>
+    <string-array name="vaccinename">
+        <item>AVA (BioThrax)</item>
+        <item>Vaxchora</item>
+        <item>DTaP (Daptacel, Infanrix)</item>
+    </string-array>
+    <string-array name="vaccinedose">
+        <item>BCG (10/20 dose vial)</item>
+        <item>BCG (20/20 dose vial)</item>
+        <item>BCG (30/40 dose vial)</item>
+    </string-array>
+    <string-array name="finalclassifion">
+        <item>A1. Vaccine product-related reaction</item>
+        <item>A2. Vaccine quality defect-related reaction </item>
+        <item>Immunization error-related reaction</item>
+        <item>Immunization anxiety-related reaction</item>
+    </string-array>
+    <string-array name="social">
+        <item>Select from social category</item>
+        <item>BC</item>
+        <item>MBC</item>
+        <item>OC</item>
+        <item>OBC</item>
+
+    </string-array>
+<string-array name="Tola">
+    <item>Select from Tola</item>
+    <item>Kavanur</item>
+    <item>Ranipat</item>
+    <item>Walajapet</item>
+</string-array>
+    <string-array name="brith1">
+        <item>Select_kg</item>
+        <item>1 kg</item>
+        <item>2 kg</item>
+        <item>3 kg</item>
+        <item>4 kg</item>
+        <item>5 kg</item>
+    </string-array>
+    <string-array name="brith2">
+        <item>Select_gram</item>
+        <item>1 gm</item>
+        <item>2 gm</item>
+        <item>3 gm</item>
+        <item>4 gm</item>
+        <item>5 gm</item>
+    </string-array>
+    <string-array name="Abnormality1">
+        <item>Select from Abnormality</item>
+        <item>Somatogenic</item>
+        <item>Psychogenic</item>
+
+    </string-array>
+    <string-array name="Abnormality2">
+        <item>Other</item>
+
+
+    </string-array>
+    <string-array name="outcome">
+        <item>Recovering</item>
+        <item>Recovered</item>
+        <item>Recovered with sequel</item>
+        <item>Not Recovered</item>
+        <item>Unkonwn</item>
+        <item>Died</item>
+        <item>Autopay done</item>
+    </string-array>
+
+    <string name="next">Next</string>
+    <string name="survey">Survey</string>
+    <string name="survey02">HOUSE To HOUSE SURVEY</string>
+    <string name="survey03">ANM/AWW Details</string>
+    <string name="survey04">House Details</string>
+    <string name="survey05">Pregnant Woman</string>
+    <string name="survey06">Infant/Children</string>
+    <string name="survey07">Mobile</string>
+    <string name="survey08">Date</string>
+    <string name="survey09">Sub Center</string>
+    <string name="survey00">Name of ANM</string>
+    <string name="survey01">Area Name</string>
+    <string name="survey22">Area code</string>
+    <string name="survey023">Cancel</string>
+    <string name="survey024">Submit</string>
+    <string name="survey025">First Name</string>
+    <string name="survey26">Last Name</string>
+    <string name="survey27">Cancel</string>
+    <string name="survey28">Surveyor Name</string>
+    <string name="survey29">House No.</string>
+    <string name="survey020">Name of the head of the family</string>
+    <string name="survey021">Fathers Name</string>
+    <string name="survey0023">How many family members are living in this house?</string>
+    <string name="survey0024">Is there any Newborn/child aged less then 1 month?</string>
+    <string name="survey0025">Is there any chlid aged between 1 to 2 Year?</string>
+    <string name="surveyyes0">Yes</string>
+    <string name="surveyno12">No</string>
+    <string name="PregnantWomen123">House No as in Form 3 </string>
+    <string name="PregnantWomen22">Name of the pregnant woman</string>
+    <string name="PregnantWomen32">Age in years  </string>
+    <string name="PregnantWomen41">Husbands name</string>
+    <string name="PregnantWomen51">Mobile / Telephone Number</string>
+    <string name="PregnantWomen61">Is MCP card available:    Yes / No </string>
+    <string name="PregnantWomen71">Expected date of delivery/ LMP</string>
+    <string name="PregnantWomen81">Tetanus Toxoid Vaccination</string>
+    <string name="PregnantWomen91">Ante Natal Check Up</string>
+    <string name="PregnantWomen101">Tetanus Toxoid Vaccination</string>
+    <string name="PregnantWomen111">Tetanus Toxoid Vaccination</string>
+    <string name="PregnantWomen112">Tetanus Toxoid Vaccination</string>
+    <string name="PregnantWomen113">Yes</string>
+    <string name="PregnantWomen114">No</string>
+
+    <string-array name="PregnantWomen11">
+        <item>Tetanus Toxoid Vaccination </item>
+        <item>TT-1</item>
+        <item>TT-2</item>
+        <item>TT-Booster(If 2 doses of TT have been given within 3 years of the current pregnancy)</item>
+    </string-array>
+    <string-array name="PregnantWomen21">
+        <item>1st ANC</item>
+        <item>2nd ANC</item>
+        <item>3rd ANC</item>
+        <item>4th ANC</item>
+    </string-array>
+    <string-array name="PregnantWomen31">
+        <item>FOR ANM ONLY</item>
+        <item>TT due-Y/N</item>
+        <item>ANC due-Y/N</item>
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_session_wise_vaccine">SessionWiseVaccineActivity</string>
+
+    <string-array name="sex">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+
+    </string-array>
+
+    <string-array name="state">
+        <item>Select State</item>
+        <item>Assam</item>
+        <item>Chattisgarh</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashta</item>
+        <item>Orissa</item>
+        <item>Tamil Nadu</item>
+        <item>Uattra Pradesh</item>
+        <item>West Bengal</item>
+
+
+    </string-array>
+
+    <string-array name="dist">
+        <item>Assam</item>
+        <item>Chattisgarh</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashta</item>
+        <item>Orissa</item>
+        <item>Tamil Nadu</item>
+        <item>Uattra Pradesh</item>
+        <item>West Bengal</item>
+
+
+    </string-array>
+
+    <string-array name="block">
+        <item>Assam</item>
+        <item>Chattisgarh</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashta</item>
+        <item>Orissa</item>
+        <item>Tamil Nadu</item>
+        <item>Uattra Pradesh</item>
+        <item>West Bengal</item>
+
+
+    </string-array>
+
+    <!--Monthly Work Plan Array -->
+
+    <string-array name="tab_A">
+        <item>Week 1</item>
+        <item>Week 2</item>
+        <item>Week 3</item>
+        <item>Week 4</item>
+        <item>Week 5</item>
+    </string-array>
+
+    <string-array name="tab_B">
+        <item>Select District</item>
+        <item>Anandwadi</item>
+        <item>Apti</item>
+        <item>Arangaon</item>
+        <item>Balgavhan</item>
+        <item>Bandhkhadak</item>
+        <item>Batewadi</item>
+        <item>Bavi</item>
+        <item>Bhavarwadi</item>
+
+    </string-array>
+    <string-array name="tab_C">
+        <item>Select State</item>
+        <item>Assam</item>
+        <item>Chattisgarh</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashta</item>
+        <item>Orissa</item>
+        <item>Tamil Nadu</item>
+        <item>Uattra Pradesh</item>
+        <item>West Bengal</item>
+    </string-array>
+
+
+
+
+    <string-array name="tab_D">
+        <item>Select Block</item>
+        <item>Aurangabad</item>
+        <item>Beed</item>
+        <item>Jalna</item>
+        <item>Osmanabad</item>
+        <item>Nanded</item>
+        <item>Latur</item>
+        <item>Parbhani</item>
+        <item>Hingoli</item>
+    </string-array>
+    <string-array name="tab_E">
+        <item>OPV - O</item>
+        <item>HEP - B</item>
+        <item>BCG </item>
+        <item>OPV - 1</item>
+        <item>Rota - 1</item>
+        <item>FIPV - 1</item>
+        <item>PCV - 1</item>
+        <item>Panta - 1</item>
+    </string-array>
+    <string-array name="Planhours">
+        <item>Selct from Planhours</item>
+        <item>10am to 12pm</item>
+        <item>12pm to 2pm</item>
+        <item>2pm to 4pm</item>
+        <item>4pm to 6pm</item>
+    </string-array>
+
+
+
+    <string name="label_immunization_records">IMMUNISATION &amp; SERVICES</string>
+    <string name="updating_dialog_title">Updating…</string>
+
+</resources>

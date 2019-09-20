@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mainscreen.govt.maidi.com.maidi">
+
+    <uses-feature
+        android:name="android.hardware.camera.any"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission
+
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="opensrp.application.SampleApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logoo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logoo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DashboardScreen"
+            android:noHistory="true" />
+        <activity
+            android:name=".ModulesActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".ChildrenActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".Beneficiary1Activity"
+            android:noHistory="true" />
+        <activity
+            android:name=".ImmunizationActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".MainActivityTab"
+            android:noHistory="true" />
+        <activity
+            android:name=".MyRegistrationActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".ChilderenDetailsViewActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".AefiMainActivityTab"
+            android:noHistory="true" />
+        <activity
+            android:name=".ViewReportActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".ViewActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".Explandable"
+            android:noHistory="true" />
+        <activity
+            android:name=".Child1Activity"
+            android:noHistory="true" />
+        <activity
+            android:name=".Child2Activity"
+            android:noHistory="true" />
+        <activity
+            android:name=".Underconstruction"
+            android:noHistory="true" />
+        <activity
+            android:name=".ChildViewActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".MonthlyworkplanActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".LoginActvity"
+            android:noHistory="true" />
+
+
+        <activity
+            android:name=".SimpleTable"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".SimpleTableVaccine"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ImmunizationCardActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".StyleTable"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".MonthlyWorkActivity"
+            android:label="@string/title_activity_monthly_work"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SurveyActivity"
+            android:label="@string/title_activity_survey"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--<activity
+            android:name=".ViewActivity"
+            android:label="@string/title_activity_view"
+            android:theme="@style/AppTheme.NoActionBar" />-->
+        <activity
+            android:name=".UpdateActivity"
+            android:label="@string/title_activity_update"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SessionWiseVaccineActivity"
+            android:label="@string/title_activity_session_wise_vaccine"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".BeneficiaryActivity" />
+        <activity android:name="MainActivity" />
+        <activity android:name=".Update1Activity" />
+        <activity android:name="Modules1Activity" />
+        <activity android:name="Modules2Activity" />
+
+
+        <activity android:name="opensrp.OcrMainActivity" />
+        <activity android:name="opensrp.DetailActivity" />
+        <service android:name="org.smartregister.immunization.service.intent.VaccineIntentService" />
+        <service android:name="org.smartregister.immunization.service.intent.RecurringIntentService" />
+
+
+    </application>
+
+</manifest>

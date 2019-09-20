@@ -1,0 +1,70 @@
+
+[
+  {
+    "type": "Vit A 1",
+    "service_logic": "",
+    "units": "IU",
+    "openmrs_service_name": {
+      "parent_entity": "",
+      "entity": "concept",
+      "entity_id": "161534AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    "openmrs_date": {
+      "parent_entity": "",
+      "entity": "encounter",
+      "entity_id": "encounter_date"
+    },
+    "services": [
+      {
+        "id": "11",
+        "name": "Vit A 1",
+        "dose": "100,000",
+        "schedule": {
+          "due": {
+            "reference": "dob",
+            "offset": "+6m",
+            "window": "+10d"
+          },
+          "expiry": {
+            "reference": "dob",
+            "offset": "+5y"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "type": "Vit A 2",
+    "service_logic": "",
+    "units": "IU",
+    "openmrs_service_name": {
+      "parent_entity": "",
+      "entity": "concept",
+      "entity_id": "161535AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    "openmrs_date": {
+      "parent_entity": "",
+      "entity": "encounter",
+      "entity_id": "encounter_date"
+    },
+    "services": [
+      {
+        "id": "12",
+        "name": "Vit A 2",
+        "dose": "200,000",
+        "schedule": {
+          "due": {
+            "reference": "prerequisite",
+            "prerequisite": "Vit A 1",
+            "offset": "+6m",
+            "window": "+10d"
+          },
+          "expiry": {
+            "reference": "dob",
+            "offset": "+5y"
+          }
+        }
+      }
+    ]
+  }
+]

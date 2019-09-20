@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewActivity"
+    android:background="@drawable/formbc1"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/relation1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp">
+
+                <EditText
+                    android:id="@+id/uid"
+                    android:layout_width="230dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginStart="3dp" android:background="@drawable/border"
+                    android:backgroundTint="#FFFF"
+                    android:gravity="center_vertical"
+                    android:hint="UID"
+                    android:inputType="" android:paddingLeft="20dp" android:paddingStart="20dp"  />
+
+                <Button
+                    android:id="@+id/search"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="240dp"
+                    android:layout_marginStart="240dp" android:background="#FFF"
+                    android:text="Search" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relation2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/relation1">
+
+                <RelativeLayout
+                    android:id="@+id/relation3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="Child Name"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/childname"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFF" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relation3"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="Father Name"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/fathername"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFF" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relation4"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginStart="0dp" android:gravity="center"
+                        android:text="Mother Name"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/mothername"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFF" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relation5"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="-15dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="-15dp" android:gravity="center"
+                        android:text="Mobile"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/mobile"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFF" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relation6"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginStart="-20dp" android:gravity="center"
+                        android:text="Dob"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/dob"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFF" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relation7"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:gravity="center"
+                        android:text="Place of Birth"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/place"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFF" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relation22"
+                    android:layout_marginLeft="120dp"
+
+                    android:layout_marginStart="120dp" android:layout_marginTop="30dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="#b0d3ed"
+                        android:contentDescription="TODO" android:src="@drawable/baby"
+
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation17"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/relation8"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginStart="40dp" android:gravity="center"
+                        android:text="Social Category"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/btn_social"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFFFF"
+                        android:entries="@array/finalclassifion" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation18"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/relation17"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="40dp" android:gravity="center"
+                        android:text="Birth type"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/btn_birthtype"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFFFF"
+                        android:inputType="text"
+                        android:paddingLeft="10dp" android:paddingStart="10dp"  />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation19"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/relation18"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="40dp" android:gravity="center"
+                        android:text="Gestation Age"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/btn_gestication"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFFFF"
+                        android:inputType="number"
+                        android:paddingLeft="10dp" android:paddingStart="10dp"  />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation20"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/relation19"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="30dp" android:gravity="center"
+                        android:text="If Born was  Weight at birth"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/bornweight"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+
+                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+
+                        android:backgroundTint="#FFFFFF"
+                        android:entries="@array/finalclassifion" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation21"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/relation20"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginStart="30dp" android:gravity="center"
+                        android:text="Any abnormal at birth"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/abnormal"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="150dp"
+
+
+                        android:layout_marginTop="40dp"
+
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFFFF" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation22"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/relation21"
+                    android:layout_marginTop="30dp">
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="40dp" android:gravity="center"
+                        android:text="Remarks"
+
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/btn_remarks"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginStart="150dp" android:background="@drawable/border"
+                        android:backgroundTint="#FFFFFF"
+                        android:inputType="text"
+                        android:paddingLeft="10dp" android:paddingStart="10dp"  />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relation10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relation9"
+                    android:layout_marginTop="30dp">
+
+                    <Button
+                        android:id="@+id/btn_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="250dp"
+                        android:layout_marginStart="250dp" android:background="#FFF"
+
+                        android:text="Update" />
+
+                    <Button
+                        android:id="@+id/btn_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginStart="120dp" android:background="#FFF"
+
+                        android:text="Cencel" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/formbc1"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+   >
+            <RelativeLayout
+                android:id="@+id/relation1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+android:layout_marginTop="60dp"
+                    android:text="@string/aefi23" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <EditText
+                    android:id="@+id/diluent"
+                    android:layout_width="200dp" android:inputType="" 
+                    android:layout_marginStart="180dp" android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="60dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation3"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/relation2"
+                android:layout_marginTop="24dp"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="-10dp"
+                    android:layout_marginStart="-10dp" android:gravity="center"
+                    android:text="@string/aefi24"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation2"
+                android:layout_marginLeft="180dp"
+                android:layout_marginStart="180dp" android:layout_marginTop="24dp">
+                <EditText
+                    android:id="@+id/batch_lot"
+                    android:layout_width="200dp" android:inputType="" 
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+                    android:layout_height="40dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@id/relation5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relation4"
+                android:layout_marginTop="24dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="@string/aefi25"
+                    android:layout_marginLeft="-10dp"
+
+                    android:layout_marginStart="-10dp" android:gravity="center"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation6"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/relation4"
+                android:layout_marginStart="180dp" android:layout_marginTop="24dp"
+                android:layout_marginLeft="180dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/expiry_date"
+                    android:layout_width="200dp" android:inputType="" 
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@id/relation7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_below="@id/relation6"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="-0dp" android:gravity="center"
+                    android:layout_marginLeft="-0dp"
+                    android:text="@string/aefi26"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation6"
+                android:layout_marginStart="180dp" android:layout_marginTop="24dp"
+                android:layout_marginLeft="180dp"
+                >
+                <EditText
+                    android:id="@+id/date"
+                    android:layout_width="200dp" android:inputType="" 
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_below="@id/relation8"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="-0dp" android:gravity="center"
+                    android:layout_marginLeft="-0dp"
+                    android:text="@string/aefi27"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation8"
+                android:layout_marginStart="180dp" android:layout_marginTop="24dp"
+                android:layout_marginLeft="180dp"
+                >
+
+                <EditText
+                    android:id="@+id/time"
+                    android:layout_width="200dp" android:inputType="" 
+                    android:layout_height="40dp"
+                    android:background="@drawable/border"
+
+                    android:backgroundTint="#FFFFFF" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relation10"
+                android:gravity="center"
+                android:layout_marginTop="90dp">
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:background="#FFF"
+                    />
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginStart="120dp" android:background="#FFF"
+
+
+                    android:gravity="center"
+                    android:text="Submit" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/formbc1"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/relation1"
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:text="@string/aefi18" />
+        <Spinner
+            android:id="@+id/vaccine_name"
+            android:layout_width="160dp"
+            android:layout_marginLeft="170dp"
+            android:backgroundTint="#ffffff"
+
+            android:layout_marginStart="170dp" android:background="@drawable/border"
+
+            android:layout_height="40dp"
+            android:entries="@array/vaccinename"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation2"
+        android:layout_below="@id/relation1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:text="@string/aefi19"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/vaccine_date"
+            android:layout_width="150dp" android:inputType="" 
+            android:layout_height="40dp"
+            android:layout_marginStart="170dp" android:background="@drawable/border"
+            android:backgroundTint="#ffffff"
+
+            android:layout_marginLeft="170dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation3"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/relation2"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+
+
+            android:layout_marginStart="10dp" android:gravity="center"
+            android:text="@string/aefi20"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/vaccine_time"
+
+            android:layout_width="150dp" android:inputType="" 
+            android:layout_height="40dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginStart="170dp" android:background="@drawable/border"
+
+            android:backgroundTint="#ffffff" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation4"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/relation3"
+        android:layout_marginTop="20dp"        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" android:gravity="center"
+            android:textStyle="bold"
+
+            android:layout_marginTop="10dp"
+            android:text="@string/aefi16" />
+
+        <Spinner
+            android:id="@+id/vaccine_dose"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginStart="170dp" android:background="@drawable/border"
+            android:backgroundTint="#ffffff"
+
+            android:layout_marginTop="10dp"
+            android:entries="@array/vaccinedose">
+
+        </Spinner>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relation4"
+        android:layout_marginTop="20dp"        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp" android:gravity="center"
+            android:layout_marginVertical="10dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+
+            android:text="@string/aefi21"/>
+        <EditText
+            android:id="@+id/batch_lot"
+            android:layout_width="160dp" android:inputType="" 
+            android:layout_marginStart="170dp" android:background="@drawable/border"
+            android:backgroundTint="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="170dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation6"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/relation5"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp" android:gravity="center"
+            android:layout_marginVertical="0dp"
+            android:textStyle="bold"
+
+            android:text="@string/aefi22" />
+        <EditText
+            android:id="@+id/expriy_date"
+            android:layout_width="160dp" android:inputType="" 
+            android:layout_marginStart="170dp" android:background="@drawable/border"
+            android:backgroundTint="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="170dp"/>
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relation6"
+            android:gravity="center"
+            android:layout_marginTop="90dp">
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:background="#FFF"
+                />
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginStart="120dp" android:background="#FFF"
+
+
+                android:gravity="center"
+                android:text="Submit" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,380 @@
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/formbc1"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/relation1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="40dp"
+                >
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:text="@string/aefi28" />
+                <CheckBox
+                    android:id="@+id/severeyes"
+                    android:layout_marginStart="200dp" android:text="@string/surveyyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"/>
+                <CheckBox
+                    android:id="@+id/severeno"
+                    android:layout_marginStart="280dp" android:text="@string/surveyno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relation2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/relation1"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/aefi29"/>
+                <CheckBox
+                    android:id="@+id/seizuresyes"
+                    android:layout_marginStart="200dp" android:text="@string/surveyyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"/>
+                <CheckBox
+                    android:id="@+id/seizuresno"
+                    android:layout_marginStart="280dp" android:text="@string/surveyno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/relation2"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/aefi30"/>
+                <CheckBox
+                    android:id="@+id/abscessyes"
+                    android:layout_marginStart="200dp" android:text="@string/surveyyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"/>
+                <CheckBox
+                    android:id="@+id/abscessno"
+                    android:layout_marginStart="280dp" android:text="@string/surveyno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/relation3"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/aefi31"/>
+                <CheckBox
+                    android:id="@+id/sepsisyes"
+                    android:layout_marginStart="200dp" android:text="@string/surveyyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"/>
+                <CheckBox
+                    android:id="@+id/sepsisno"
+                    android:layout_marginStart="280dp" android:text="@string/surveyno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation5"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/relation4"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/aefi32"/>
+                <CheckBox
+                    android:id="@+id/encephalopathyyes"
+                    android:layout_marginStart="200dp" android:text="@string/surveyyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"/>
+                <CheckBox
+                    android:id="@+id/encephalopathyno"
+                    android:layout_marginStart="280dp" android:text="@string/surveyno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation6"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/relation5"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/aefi33"/>
+                <CheckBox
+                    android:id="@+id/toxicyes"
+                    android:layout_marginStart="200dp" android:text="@string/surveyyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"/>
+                <CheckBox
+                    android:id="@+id/toxicno"
+                    android:layout_marginStart="280dp" android:text="@string/surveyno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation7"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/relation6"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/aefi34"/>
+                <CheckBox
+                    android:id="@+id/thromboctpeniayes"
+                    android:layout_marginStart="200dp" android:text="@string/surveyyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"/>
+                <CheckBox
+                    android:id="@+id/thromboctpeniano"
+                    android:layout_marginStart="280dp" android:text="@string/surveyno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation8"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/relation7"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/aefi35"/>
+                <CheckBox
+                    android:id="@+id/anaphylaxisyes"
+                    android:layout_marginStart="200dp" android:text="@string/surveyyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"/>
+                <CheckBox
+                    android:id="@+id/anaphylaxisno"
+                    android:layout_marginStart="280dp" android:text="@string/surveyno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation9"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/relation8"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/aefi36"/>
+                <CheckBox
+                    android:id="@+id/feveryes"
+                    android:layout_marginStart="200dp" android:text="@string/surveyyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"/>
+                <CheckBox
+                    android:id="@+id/feverno"
+                    android:layout_marginStart="280dp" android:text="@string/surveyno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation10"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/relation9"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/aefi37"/>
+                <CheckBox
+                    android:id="@+id/otheryes"
+                    android:layout_marginStart="200dp" android:text="@string/surveyyes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"/>
+                <CheckBox
+                    android:id="@+id/otherno"
+                    android:layout_marginStart="280dp" android:text="@string/surveyno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="280dp"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation11"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@id/relation10"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/aefi38"/>
+
+                <EditText
+                    android:id="@+id/specify_other"
+                    android:layout_width="180dp" android:inputType="" 
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginStart="200dp" android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation12"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@id/relation11"
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:text="@string/aefi39" />
+                <EditText
+                    android:id="@+id/event_time"
+                    android:layout_width="180dp" android:inputType="" 
+                    android:layout_marginStart="200dp" android:background="@drawable/border"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="200dp"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation13"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_below="@id/relation12"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp" android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:text="Event description"/>
+                <EditText
+                    android:id="@+id/severe"
+                    android:layout_width="180dp" android:inputType="" 
+                    android:layout_height="40dp"
+                    android:layout_marginStart="200dp" android:background="@drawable/border"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_marginLeft="200dp"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relation13"
+                android:layout_marginStart="80dp" android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="80dp"
+                >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:layout_marginLeft="0dp"
+                    android:text="Cancel"
+                    android:layout_marginStart="0dp" android:background="#FFF"
+                    />
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_marginStart="120dp" android:background="#FFF"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+
+                    android:gravity="center"
+                    android:text="Submit" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>

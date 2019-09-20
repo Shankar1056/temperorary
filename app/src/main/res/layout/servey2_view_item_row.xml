@@ -1,0 +1,333 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/formbc1"
+    >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/relation1"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+
+                    android:text="@string/PregnantWomen1"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation2"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/houseno"
+                    android:layout_width="200dp" android:inputType="" 
+                    android:layout_marginStart="200dp" android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="200dp"
+                   />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation3"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/relation2"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+
+                    android:gravity="center"
+                    android:text="@string/PregnantWomen2"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation2"
+                android:layout_marginLeft="200dp"
+                android:layout_marginStart="200dp" android:layout_marginTop="10dp">
+                <EditText
+                    android:id="@+id/pregnantwomen"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="200dp" android:inputType="" 
+                    android:layout_height="40dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@id/relation5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relation4"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:text="@string/PregnantWomen3"
+                    android:gravity="center"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation6"
+                android:layout_width="wrap_content"
+                android:layout_below="@id/relation4"
+                android:layout_marginStart="200dp" android:layout_marginTop="10dp"
+                android:layout_marginLeft="200dp"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/age_year"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="200dp" android:inputType="" 
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@id/relation7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/relation6"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="@string/PregnantWomen4"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation6"
+                android:layout_marginStart="200dp" android:layout_marginTop="10dp"
+                android:layout_marginLeft="200dp">
+                <EditText
+                    android:id="@+id/husband_name"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_width="200dp" android:inputType="" 
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/relation8">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="@string/PregnantWomen5"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation8"
+                android:layout_marginStart="200dp" android:layout_marginTop="10dp"
+                android:layout_marginLeft="200dp">
+                <EditText
+                    android:id="@+id/mobile"
+                    android:layout_width="200dp" android:inputType="" 
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/relation10">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center"
+                    android:text="@string/PregnantWomen6" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation10"
+                android:layout_marginStart="160dp" android:layout_marginTop="10dp"
+                android:layout_marginLeft="160dp">
+
+                <CheckBox
+                    android:id="@+id/mcpYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginStart="40dp" android:text="@string/PregnantWomen13" />
+                <CheckBox
+                    android:id="@+id/mcpNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginStart="110dp" android:text="@string/PregnantWomen14"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/relation12">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="@string/PregnantWomen7"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation12"
+                android:layout_marginStart="200dp" android:layout_marginTop="10dp"
+                android:layout_marginLeft="200dp">
+                <EditText
+                    android:id="@+id/expected_date"
+                    android:layout_width="200dp" android:inputType="" 
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_height="40dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/relation15">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="@string/PregnantWomen8"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation15"
+                android:layout_marginStart="200dp" android:layout_marginTop="10dp"
+                android:layout_marginLeft="200dp">
+                <Spinner
+                    android:id="@+id/tetanus"
+                    android:layout_width="200dp"
+                    android:gravity="center"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_height="40dp"
+                    android:entries="@array/PregnantWomen1"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/relation17">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="@string/PregnantWomen9"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation17"
+                android:layout_marginStart="200dp" android:layout_marginTop="10dp"
+                android:layout_marginLeft="200dp">
+
+                <Spinner
+                    android:id="@+id/ante_natal_check_up"
+                    android:layout_width="200dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"
+                    android:entries="@array/PregnantWomen2" />
+            </RelativeLayout>
+            <!--<RelativeLayout
+                android:id="@+id/relation120"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/relation19">
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="FOR ANM ONLY"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/relation20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation19"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="200dp">
+                <Spinner
+                    android:id="@+id/for_anm_only"
+                    android:layout_width="200dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#FFFFFF"
+
+                    android:layout_height="40dp"
+                    android:entries="@array/PregnantWomen3"
+                    />
+            </RelativeLayout>-->
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relation19"
+
+                android:layout_marginTop="20dp">
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="100dp" android:background="#FFF"
+
+                    android:layout_marginLeft="100dp"
+                    android:text="@string/survey17"/>
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginStart="230dp" android:background="#FFF"
+
+                    android:text="Submit"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>

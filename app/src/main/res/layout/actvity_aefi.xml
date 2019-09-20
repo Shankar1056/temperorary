@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0d3ed"
+    >
+    <RelativeLayout
+        android:id="@+id/relation1"
+
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/text1"
+
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:text="@string/aefi1"
+            android:textSize="13dp"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/edtext1"
+            android:layout_width="210dp" android:inputType="" 
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginStart="180dp" android:background="@drawable/border"
+            android:backgroundTint="#FFFFFF" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation2"
+        android:layout_below="@id/relation1"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/text2"
+
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:text="@string/aefi2"
+            android:layout_marginLeft="-10dp"
+            android:textSize="13dp"
+            android:layout_marginStart="-10dp" android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/edtext2"
+            android:layout_marginStart="180dp" android:background="@drawable/border"
+            android:backgroundTint="#FFFFFF"
+
+            android:layout_width="210dp" android:inputType="" 
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/relation2"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="2dp" android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:text="@string/aefi4"/>
+        <CheckBox
+            android:id="@+id/checkbox1"
+            android:layout_marginStart="180dp" android:text="@string/surveyyes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"/>
+        <CheckBox
+            android:id="@+id/checkbox2"
+            android:layout_marginStart="280dp" android:text="@string/surveyno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/relation4"
+        android:layout_below="@id/relation3"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/text4"
+            android:layout_marginLeft="-10dp"
+
+            android:layout_width="105dp"
+            android:layout_height="30dp"
+            android:text="@string/aefi5"
+            android:textSize="13dp"
+            android:layout_marginStart="-10dp" android:gravity="center"
+            />
+        <EditText
+            android:id="@+id/edtext4"
+            android:layout_marginStart="180dp" android:background="@drawable/border"
+            android:backgroundTint="#FFFFFF"
+
+            android:layout_width="210dp" android:inputType="" 
+            android:layout_height="40dp"
+            android:layout_marginLeft="180dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@id/relation5"
+        android:layout_below="@id/relation4"
+        android:layout_marginTop="90dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginStart="120dp" android:text="@string/survey13"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="240dp"
+            android:layout_marginStart="240dp" android:text="Next"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>
